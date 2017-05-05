@@ -1,1 +1,83 @@
-fam
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <title>Kidd</title>
+  <meta name="description" content="personal site to showcase my skillz; Chloé (Kidd) Matthews">
+  <meta name="author" content="Kidd">
+
+  <!-- default stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+  <!-- jQuery via Google's CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- styles needed by jScrollPane -->
+  <link type="text/css" href="css/scroll/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+  <!-- the mousewheel plugin - optional to provide mousewheel support -->
+  <script type="text/javascript" src="js/scroll/jquery.mousewheel.js"></script>
+
+  <!-- the jScrollPane script -->
+  <script type="text/javascript" src="js/scroll/jquery.jscrollpane.min.js"></script>
+</head>
+
+<body>
+<script type="text/javascript" src="js/script.js"></script>
+
+  <div class="col-4 col-m-6 sidebar" id="sidenav">
+    <button class="row navctrl" onclick="nav_close()">x</button>
+    <ul class="nav-items">
+      <li class="row"><a class="nav-item" href="index.html">Home</a></li>
+      <li class="row"><a class="nav-item" href="about.html">About</a></li>
+      <li class="row"><a class="nav-item" href="design.html">Design</a></li>
+      <li class="row"><a class="nav-item" href="pen.html">Writing</a></li>
+      <li class="row"><a class="nav-item" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="wrapper">
+    <div class="header">
+      <div class="name">
+        <h1>Chloé Matthews</h1>
+      </div>
+      <button class="navctrl" onclick="nav_open()">&#9776;</button>
+
+    </div>
+
+    <div class="row mid">
+      <div class="col-4 col-m-12 main-content">
+        <div class="row top">
+          <div class="col-6 col-m-12 divchart tl">
+            <a href="https://www.youtube.com/"><h2>surf</h2></a>
+          </div>
+
+          <div class="col-6 col-m-12 divchart tr">
+            <a href="http://www.complex.com/"><h2>like</h2></a>
+          </div>
+        </div>
+
+
+        <div class="row bot">
+          <div class="col-6 col-m-12 divchart bl">
+            <a href="https://twitter.com/"><h2>the</h2></a>
+          </div>
+
+          <div class="col-6 col-m-12 divchart br">
+            <a href="http://www.addictinggames.com/"><h2>kidd</h2></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Kidd 2k17</p>
+    </div>
+  </div>
+
+</body>
+</html>
