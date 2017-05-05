@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  background: #F2F5B5;
+  display: block;
+  margin: 20vh auto 0;
+}
