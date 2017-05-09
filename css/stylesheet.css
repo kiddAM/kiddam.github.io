@@ -1750,7 +1750,7 @@ a:link {
       height: 100%;
     /**FIX: align h2 vertically in middle of div**/
       /*vertical-align: middle;*/
-      /*line-height: 20vh;*/
+      line-height: 22vh;
     }
 
     /***********************************************************/
@@ -1896,7 +1896,8 @@ a:link {
       height: 100%;
     /**FIX: align h2 vertically in middle of div**/
       /*vertical-align: middle;*/
-      /*line-height: 20vh;*/
+      line-height: 28vh;
+      overflow-y: hidden;
     }
 
     /***********************************************************/
